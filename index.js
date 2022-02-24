@@ -109,6 +109,7 @@
 				(serverListFormatted =
 					serverListFormatted + '\n' + `${e.name} - ${e.ip}`)
 		);
+
 		console.log(serverListFormatted);
 		let { option } = await prompt([
 			{
@@ -119,12 +120,14 @@
 			},
 		]);
 
+		let serverListFormattedArray = serverListFormatted.split('\n');
+		serverListFormattedArray.shift();
 		switch (option) {
 			case 'Delete a server':
 				let { server } = await prompt([
 					{
 						message: 'What Server would you like to delete?',
-						choices: serverListFormatted.split('\n'),
+						choices: serverListFormattedArray,
 						type: 'list',
 						name: 'server',
 					},
