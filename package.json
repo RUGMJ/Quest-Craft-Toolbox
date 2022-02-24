@@ -1,0 +1,16 @@
+{
+  "name": "quest-craft-toolbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RUGMJ",
+  "license": "ISC",
+  "dependencies": {
+    "execa": "^6.1.0",
+    "inquirer": "^8.2.0",
+    "prismarine-nbt": "^2.2.0"
+  }
+}
