@@ -1,6 +1,6 @@
-# Quest Craft Installer WIP
+# Quest Craft Installer
 
-> Made by RUGMJ
+> Made by RUGMJ, more features coming soon
 
 ## How to install
 
