@@ -1,0 +1,39 @@
+{
+	"name": "quest-craft-toolbox",
+	"version": "1.0.0",
+	"description": "> Made by RUGMJ",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"watch": "tsc --watch",
+		"build": "tsc --build",
+		"rollup": "rollup index.js --format system --file bundle.js",
+		"bundle": "nexe.cmd --build .\bundle.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RUGMJ7443/Quest-Craft-Toolbox.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/RUGMJ7443/Quest-Craft-Toolbox/issues"
+	},
+	"homepage": "https://github.com/RUGMJ7443/Quest-Craft-Toolbox#readme",
+	"dependencies": {
+		"chalk": "^5.0.0",
+		"chalk-animation": "^1.6.0",
+		"execa": "^6.1.0",
+		"inquirer": "^8.2.0",
+		"nexe": "^4.0.0-beta.19",
+		"prismarine-nbt": "^2.2.0",
+		"rollup": "^2.69.0",
+		"typescript": "^4.6.2"
+	},
+	"devDependencies": {
+		"@types/chalk-animation": "^1.6.1",
+		"@types/figlet": "^1.5.4",
+		"@types/inquirer": "^8.2.0"
+	}
+}
