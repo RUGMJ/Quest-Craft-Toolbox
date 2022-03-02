@@ -30,7 +30,7 @@ A simple tool to help make setting up Quest Craft easier
 - If you dont have exisiting servers then it will immediately take you to adding one, simply fill out the form and press enter
 - After you've finished you can unplug your quest and open QuesrCraft your servers should now be updated
 
-# (For Advanced Users) Building, Running and Bundling from source
+## (For Advanced Users) Building, Running and Bundling from source
 
 > Only continue if you know what you're doing
 
