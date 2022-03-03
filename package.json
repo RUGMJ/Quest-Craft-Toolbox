@@ -2,11 +2,11 @@
 	"name": "quest-craft-toolbox",
 	"version": "1.0.0",
 	"description": "> Made by RUGMJ",
-	"main": "index.js",
+	"main": "dist/index.js",
 	"type": "module",
 	"scripts": {
 		"build:1": "tsc",
-		"build:2": "caxa --input dist/index.js --exclude dist requirements .git -o dist/QuestCraftToolbox.exe -- '{{caxa}}/node_modules/.bin/node' '{{caxa}}/index.js'"
+		"build:2": "caxa -i ./ --exclude dist requirements .git -o dist/QuestCraftToolbox.exe -- \"{{caxa}}/node_modules/.bin/node\" '{{caxa}}/index.js\""
 	},
 	"repository": {
 		"type": "git",
