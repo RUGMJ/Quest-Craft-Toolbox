@@ -1,5 +1,3 @@
 working/
 node_modules
-index.js
-bundle.js
-Quest Craft Toolbox.exe
+dist/*
