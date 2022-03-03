@@ -5,10 +5,6 @@ import fs from 'fs'
 import path from 'path'
 import chalkAnimation from 'chalk-animation'
 import chalk from 'chalk'
-import figlet from 'figlet'
-
-
-
 
 const cwd = process.cwd()
 
