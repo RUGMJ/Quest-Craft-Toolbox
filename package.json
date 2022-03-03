@@ -2,7 +2,7 @@
 	"name": "quest-craft-toolbox",
 	"version": "1.0.0",
 	"description": "> Made by RUGMJ",
-	"main": "dist/index.js",
+	"main": "index.js",
 	"type": "module",
 	"scripts": {
 		"build:1": "tsc",
